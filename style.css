@@ -90,9 +90,39 @@ main {
 
 /* MENU */
 
+.menu {
+  height: 40px;
+  width: fit-content;
+  margin: auto;
+}
+
+.button__container {
+  display: flex;
+  justify-content: center;
+}
+
 /* HERO */
 
+.hero {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 300px;
+  grid-template-rows: 300px 300px;
+}
+
+/* CARD */
+
+.card {
+  background-color: grey;
+}
+
 /* BUTTON */
+
+.newBook {
+  text-transform: uppercase;
+  height: 50px;
+  width: 120px;
+}
 
 /* MEDIA */
 /* Small */
